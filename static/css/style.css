@@ -1,0 +1,72 @@
+body {
+    background-color: #fff;
+}
+
+.chatbox {
+    background-color: white;
+    padding: 25px;
+}
+
+.recipient {
+    height: 75px;
+    background-color: #fff;
+}
+
+.recipient img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.botText {
+    border: none;
+    background-color: #0C625B;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* Darker chat container */
+
+.userText {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #0A9AAD;
+    color: #fff;
+}
+
+
+/* Clear floats */
+
+.msg {
+    margin-top: 10px
+}
+
+
+/* Style images */
+
+.msg img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+/* Style time text */
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+
+/* Style time text */
+
+.time-left {
+    float: left;
+    color: #999;
+}
