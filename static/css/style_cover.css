@@ -1,77 +1,3 @@
-body {
-    background-color: #fff;
-}
-
-.chatbox {
-    background-color: white;
-    padding: 25px;
-}
-
-.recipient {
-    height: 75px;
-    background-color: #fff;
-}
-
-.recipient img {
-    float: left;
-    max-width: 60px;
-    width: 100%;
-    border-radius: 50%;
-}
-
-.botText {
-    border: none;
-    background-color: #0C625B;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-
-/* Darker chat container */
-
-.userText {
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #0A9AAD;
-    color: #fff;
-}
-
-
-/* Clear floats */
-
-.msg {
-    margin-top: 10px
-}
-
-
-/* Style images */
-
-.msg img {
-    float: left;
-    max-width: 60px;
-    width: 100%;
-    border-radius: 50%;
-}
-
-
-/* Style time text */
-
-.time-right {
-    float: right;
-    color: #aaa;
-}
-
-
-/* Style time text */
-
-.time-left {
-    float: left;
-    color: #999;
-}
-
-
 /*
  * Globals
  */
@@ -115,13 +41,17 @@ body {
     text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 }
 
+#punchline {
+    font-weight: bold;
+}
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
 .site-wrapper {
     display: table;
     width: 100%;
-    height: 600px;
+    height: 100%;
     background-color: #333;
     /*height: 100%; */
     /*min-height: 100%;*/
@@ -203,6 +133,7 @@ body {
 
 .cover {
     padding: 0 20px;
+    min-height: 100%;
 }
 
 .cover .btn-lg {
